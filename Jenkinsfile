@@ -1,7 +1,7 @@
 #!groovy
 pipeline {
     environment {
-        registry = "tabbu/demo-myubuntuserver"
+        registry = "tabasums/demo-myubuntuserver"
         registryCredentials = 'docker-credentials'
     }
     agent any
